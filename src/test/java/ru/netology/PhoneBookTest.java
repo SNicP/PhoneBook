@@ -52,6 +52,15 @@ class PhoneBookTest {
         Assertions.assertEquals(stringExpected, stringActual);
     }
 
+    @Test
+    public void printAllNames(){
+        //given
+        String stringExpected = "[Анастасия, Иван, Наталья, Николай]";
 
+        //when
+        String stringActual = phoneBook.printAllNames();
 
+        //then
+        Assertions.assertEquals(stringExpected, stringActual);
+    }
 }

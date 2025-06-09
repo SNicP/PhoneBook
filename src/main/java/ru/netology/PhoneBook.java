@@ -23,4 +23,7 @@ public class PhoneBook {
         return phoneBookByName.get(name);
     }
 
+    public String printAllNames() {
+        return null;
+    }
 }
