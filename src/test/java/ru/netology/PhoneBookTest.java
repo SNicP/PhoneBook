@@ -28,4 +28,17 @@ class PhoneBookTest {
         Assertions.assertEquals(numberOfContactsExpected, numberOfContactsActual);
     }
 
+    @Test
+    public void findByNumberTest(){
+        //given
+        String stringExpected = "Иван";
+
+        //when
+        String stringActual = phoneBook.findByNumber("222333444");
+
+        //then
+        Assertions.assertEquals(stringExpected, stringActual);
+    }
+
+
 }
