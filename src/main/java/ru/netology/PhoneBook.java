@@ -19,4 +19,8 @@ public class PhoneBook {
         return phoneBookByNumber.get(numberPhone);
     }
 
+    public String findByName(String name) {
+        return null;
+    }
+
 }
